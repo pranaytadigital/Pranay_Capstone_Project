@@ -12,18 +12,19 @@ The framework is designed for automated web application testing with reusable co
 ```text
 Pranay_Capstone_Project
 │
-├── src/test/java
+├── src/main/java
+│   ├── base
+│       └── Base classes for browser setup and configuration
+│   │
 │   ├── pages
 │   │   └── Contains Page Object classes
 │   │
-│   ├── tests
-│   │   └── Contains Test Classes
-│   │
 │   ├── utilities
 │   │   └── Utility/helper classes
-│   │
-│   └── base
-│       └── Base classes for browser setup and configuration
+│
+├── src/test/java
+│    ├── tests
+│    │   └── Contains Test Classes
 │
 ├── src/test/resources
 │   └── Test data / configuration files
